@@ -1,0 +1,96 @@
+/*全局背景*/
+body{
+    background:url(http://magic-lib.com/紙背景.jpg);
+    background-size:100%;
+    background-attachment:fixed;
+    background-position:center;
+    text-shadow: 1px 1px 2px #FFF,-1px -1px 2px #FFF;
+}
+a, a:visited {
+    transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s, transform 0.1s;
+}
+
+/*首頁按鈕*/
+.indexlbtit2 a ,.rightlbtit a{
+    background:rgba(255,255,255,0.5);
+    border-radius: 0px;
+    margin:0px;
+    padding:5px 5px 3px 5px;
+    height: auto;
+    line-height: normal;
+}
+.indexlbtit2:nth-child(2) a, .rightlbtit:nth-child(2) a{
+    border-radius: 8px 8px 0px 0px;
+}
+.indexlbtit2:last-child a, .rightlbtit:last-child a{
+    border-radius: 0px 0px 8px 8px;
+}
+.rightbox1{
+    background:rgba(0,0,0,0.2);
+}
+.indexlbtit2:hover a, .rightlbtit:hover a{
+    background:rgba(255,255,255,0.3);
+    transform: scale(1.02);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+/*版塊標題*/
+.indexlbtit2tit, .rightlbtit_tit{
+    background:rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.5);
+}
+.indexlbtit2tit{
+    transition:transform 0.3s;
+}
+.rightlbtit_tit{
+    transition:transform 0.3s;
+}
+ul:hover .indexlbtit2tit{
+    transform:scale(1.03);
+}
+ul:hover .rightlbtit_tit{
+    transform:scale(1.03);
+    transition:transform 0.3s;
+}
+
+
+/*大區背景*/
+.thread1{
+    background:rgba(255,255,255,0.3);
+}
+
+/*————————————————————————*/
+/*帖子內頭像框*/
+.readidms{
+    border:none !important;
+    background:none !important;
+}
+.readidmstop > img{
+    transform:scale(1.28) translate(0px,22px);
+    position:relative;
+    box-shadow:0px 0px 5px #000;
+    z-index:-1;
+    border-radius:10px;
+    transition: transform 0.5s, border-radius 0.5s;
+}
+.readidms:hover > .readidmstop > img{
+    transform:scale(1.6) translate(0px,22px);
+    border-radius:0px;
+    transition: transform 0.5s, border-radius 0.5s;
+}
+.readidmsbottom > a{
+    background: #fff;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+
+/*————————————————————————*/
+/*讀帖子*/
+.readtext{
+    background:rgba(255,255,255,0.25);
+    transition: background 0.6s;
+}
+.readtext:hover{
+    background:rgba(255,255,255,0.45);
+    transition: background 0.6s;
+}
