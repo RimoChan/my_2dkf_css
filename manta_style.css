@@ -72,6 +72,7 @@ ul:hover .rightlbtit_tit{
     z-index:-1;
     border-radius:10px;
     transition: transform 0.5s, border-radius 0.5s;
+    height:auto;
 }
 .readidms:hover > .readidmstop > img{
     transform:scale(1.6) translate(0px,22px);
