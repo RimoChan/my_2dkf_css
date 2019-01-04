@@ -101,4 +101,5 @@ ul:hover .rightlbtit_tit{
     transform-origin: 0% 0%;
     transform: scale(1.16) translateX(-15px) translateY(-17.5px);
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%);
+    -moz-mask-image   : linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%);
 }
