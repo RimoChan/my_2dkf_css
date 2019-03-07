@@ -41,7 +41,10 @@ a, a:visited {
 
 /*版塊標題*/
 .indexlbtit2tit, .rightlbtit_tit {
-    background: rgba(255, 255, 255, 0.8);
+    background: url(http://magic-lib.com/紙背景花紋模糊.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5);
 }
 
