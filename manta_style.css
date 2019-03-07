@@ -1,7 +1,7 @@
 /*全局背景*/
 body {
-    background: url(http://magic-lib.com/紙背景.jpg);
-    background-size: 100%;
+    background: url(http://magic-lib.com/紙背景花紋.jpg);
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     text-shadow: 1px 1px 2px #FFF, -1px -1px 2px #FFF;
