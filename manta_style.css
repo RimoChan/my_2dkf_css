@@ -1,119 +1,92 @@
-/*全局背景*/
+@charset "UTF-8";
 body {
-    background: url(http://magic-lib.com/紙背景花紋.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    text-shadow: 1px 1px 2px #FFF, -1px -1px 2px #FFF;
-}
+  background: url("https://rimochan.github.io/synthetic-css/紙背景花紋.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-shadow: 0px 0px 3px #FFF; }
 
 a, a:visited {
-    transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s, transform 0.1s;
-}
+  transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s, transform 0.1s; }
 
-/*首頁按鈕*/
+.drow:first-child {
+  position: absolute !important;
+  border-width: 0px !important;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5) !important;
+  background: url("https://rimochan.github.io/synthetic-css/紙背景花紋模糊.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 0px 0px 4px 4px; }
+  .drow:first-child .topmenuo {
+    background: transparent; }
+  .drow:first-child .topmenuo3 {
+    border-width: 0px; }
+
 .indexlbtit2 a, .rightlbtit a {
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 0px;
-    margin: 0px;
-    padding: 5px 5px 3px 5px;
-    height: auto;
-    line-height: normal;
-}
-
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0px;
+  margin: 0px;
+  padding: 5px 5px 3px 5px;
+  height: auto;
+  line-height: normal; }
 .indexlbtit2:nth-child(2) a, .rightlbtit:nth-child(2) a {
-    border-radius: 8px 8px 0px 0px;
-}
-
+  border-radius: 8px 8px 0px 0px; }
 .indexlbtit2:last-child a, .rightlbtit:last-child a {
-    border-radius: 0px 0px 8px 8px;
-}
+  border-radius: 0px 0px 8px 8px; }
+.indexlbtit2:hover a, .rightlbtit:hover a {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); }
+
+.indexlbtit2tit, .rightlbtit_tit {
+  background: url("https://rimochan.github.io/synthetic-css/紙背景花紋模糊.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s; }
 
 .rightbox1 {
-    background: rgba(0, 0, 0, 0.2);
-}
+  background: rgba(0, 0, 0, 0.2); }
 
-.indexlbtit2:hover a, .rightlbtit:hover a {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.02);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
-}
+ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
+  transform: scale(1.03); }
 
-/*版塊標題*/
-.indexlbtit2tit, .rightlbtit_tit {
-    background: url(http://magic-lib.com/紙背景花紋模糊.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5);
-}
-
-.indexlbtit2tit {
-    transition: transform 0.3s;
-}
-
-.rightlbtit_tit {
-    transition: transform 0.3s;
-}
-
-ul:hover .indexlbtit2tit {
-    transform: scale(1.03);
-}
-
-ul:hover .rightlbtit_tit {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-}
-
-/*大區背景*/
 .thread1 {
-    background: rgba(255, 255, 255, 0.3);
-}
+  background: rgba(255, 255, 255, 0.3); }
 
-/*————————————————————————*/
-/*帖子內頭像框*/
 .readidms {
-    border: none !important;
-    background: none !important;
-}
-
-.readidmstop>img {
+  border: none !important;
+  background: none !important; }
+  .readidms .readidmstop > img {
     transform: scale(1.28) translate(0px, 22px);
     position: relative;
     box-shadow: 0px 0px 5px #000;
     z-index: -1;
     border-radius: 10px;
     transition: transform 0.5s, border-radius 0.5s;
-    height: auto;
-}
-
-.readidms:hover>.readidmstop>img {
+    height: auto; }
+  .readidms:hover > .readidmstop > img {
     transform: scale(1.6) translate(0px, 22px);
     border-radius: 0px;
-    transition: transform 0.5s, border-radius 0.5s;
-}
+    transition: transform 0.5s, border-radius 0.5s; }
 
-.readidmsbottom>a {
-    background: #fff;
-    box-shadow: 0px 0px 5px #fff;
-}
+.readidmsbottom > a {
+  background: #fff;
+  box-shadow: 0px 0px 5px #fff; }
 
-/*————————————————————————*/
-/*讀帖子*/
-.readtext {
-    background: rgba(255, 255, 255, 0.25);
-    transition: background 0.6s;
-}
-
-.readtext:hover {
-    background: rgba(255, 255, 255, 0.45);
-    transition: background 0.6s;
-}
-
-/*新版框*/
 .readidmtop img {
-    transform-origin: 0% 0%;
-    transform: scale(1.16) translateX(-15px) translateY(-17.5px);
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%);
-    -moz-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%);
-}
+  transform-origin: 0% 0%;
+  transform: scale(1.16) translateX(-15px) translateY(-17.5px);
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), black 10%);
+  -moz-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), black 10%); }
+
+.readtext {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: background-color 0.6s; }
+  .readtext:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    transition: background-color 0.6s; }
+
+/*# sourceMappingURL=manta_style.css.map */
