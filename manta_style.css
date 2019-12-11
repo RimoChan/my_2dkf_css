@@ -61,18 +61,22 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
 .readidms {
   border: none !important;
   background: none !important;
-  transform: scale(1.28) translate(0px, 22px); }
-  .readidms .readidmstop > img {
-    position: relative;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-    z-index: -1;
-    border-radius: 10px;
-    transition: transform 0.4s, box-shadow 0.4s;
-    height: auto; }
-  .readidms .readidmstop:hover > img {
-    transform: scale(1.28) translate(0px, 22px);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); }
+  width: 140px;
+  transform: scale(1.28) translate(15px, 22px); }
+  .readidms .readidmstop {
+    width: 100%; }
+    .readidms .readidmstop > img {
+      position: relative;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+      z-index: -1;
+      border-radius: 10px;
+      transition: transform 0.4s, box-shadow 0.4s;
+      height: auto; }
+    .readidms .readidmstop:hover > img {
+      transform: scale(1.28) translate(0px, 22px);
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); }
   .readidms .readidmsbottom {
+    width: 100%;
     transform: scale(0.78) translate(0px, -22px);
     transition: opacity 0.4s; }
   .readidms .readidmstop:hover + .readidmsbottom {
