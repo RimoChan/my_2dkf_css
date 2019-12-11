@@ -22,6 +22,8 @@ a, a:visited {
     background: transparent; }
   .drow:first-child .topmenuo3 {
     border-width: 0px; }
+    .drow:first-child .topmenuo3 a {
+      color: #000; }
 
 .indexlbtit2 a, .rightlbtit a {
   background: rgba(255, 255, 255, 0.5);
@@ -58,23 +60,23 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
 
 .readidms {
   border: none !important;
-  background: none !important; }
+  background: none !important;
+  transform: scale(1.28) translate(0px, 22px); }
   .readidms .readidmstop > img {
-    transform: scale(1.28) translate(0px, 22px);
     position: relative;
-    box-shadow: 0px 0px 5px #000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
     z-index: -1;
     border-radius: 10px;
-    transition: transform 0.5s, border-radius 0.5s;
+    transition: transform 0.4s, box-shadow 0.4s;
     height: auto; }
-  .readidms:hover > .readidmstop > img {
-    transform: scale(1.6) translate(0px, 22px);
-    border-radius: 0px;
-    transition: transform 0.5s, border-radius 0.5s; }
-
-.readidmsbottom > a {
-  background: #fff;
-  box-shadow: 0px 0px 5px #fff; }
+  .readidms .readidmstop:hover > img {
+    transform: scale(1.28) translate(0px, 22px);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); }
+  .readidms .readidmsbottom {
+    transform: scale(0.78) translate(0px, -22px);
+    transition: opacity 0.4s; }
+  .readidms .readidmstop:hover + .readidmsbottom {
+    opacity: 0; }
 
 .readidmtop img {
   transform-origin: 0% 0%;

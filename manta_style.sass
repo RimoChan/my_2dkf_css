@@ -24,8 +24,9 @@ a, a:visited
         background: transparent
     .topmenuo3 
         border-width: 0px
+        a
+            color: #000
     
-
 // 版塊標題
 .indexlbtit2, .rightlbtit
     a
@@ -70,23 +71,24 @@ ul:hover
 .readidms 
     border: none !important
     background: none !important
+    transform: scale(1.28) translate(0px, 22px)
     .readidmstop>img
-        transform: scale(1.28) translate(0px, 22px)
         position: relative
-        box-shadow: 0px 0px 5px #000
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.75)
         z-index: -1
         border-radius: 10px
-        transition: transform 0.5s, border-radius 0.5s
+        transition: transform 0.4s, box-shadow 0.4s
         height: auto
-    &:hover>.readidmstop>img 
-        transform: scale(1.6) translate(0px, 22px)
-        border-radius: 0px
-        transition: transform 0.5s, border-radius 0.5s
-
-// 頭像框名字
-.readidmsbottom>a
-    background: #fff
-    box-shadow: 0px 0px 5px #fff
+    .readidmstop:hover>img
+        transform: scale(1.28) translate(0px, 22px)
+        box-shadow: 0px 0px 8px rgba(0,0,0,0.5)
+    // 頭像框名字
+    .readidmsbottom
+        transform: scale(0.78) translate(0px, -22px)
+        transition: opacity 0.4s
+    .readidmstop:hover+.readidmsbottom
+        opacity: 0
+        
 
 // 新版框
 .readidmtop img
