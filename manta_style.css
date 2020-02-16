@@ -59,34 +59,22 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
   background: rgba(255, 255, 255, 0.3); }
 
 .readidms {
-  border: none !important;
-  background: none !important;
+  height: 270px;
   width: 140px;
-  transform: scale(1.28) translate(15px, 22px); }
+  left: 70px;
+  border-radius: 4px;
+  overflow: hidden; }
   .readidms .readidmstop {
-    width: 100%; }
-    .readidms .readidmstop > img {
-      position: relative;
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-      z-index: -1;
-      border-radius: 10px;
-      transition: transform 0.4s, box-shadow 0.4s;
-      height: auto; }
-    .readidms .readidmstop:hover > img {
-      transform: scale(1.28) translate(0px, 22px);
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); }
-  .readidms .readidmsbottom {
     width: 100%;
-    transform: scale(0.78) translate(0px, -22px);
-    transition: opacity 0.4s; }
-  .readidms .readidmstop:hover + .readidmsbottom {
-    opacity: 0; }
-
-.readidmtop img {
-  transform-origin: 0% 0%;
-  transform: scale(1.16) translateX(-15px) translateY(-17.5px);
-  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), black 10%);
-  -moz-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), black 10%); }
+    padding: 0; }
+  .readidms .readidmsbottom {
+    width: 100%; }
+    .readidms .readidmsbottom .readidmsbottom_s {
+      width: 60%; }
+    .readidms .readidmsbottom .readidmsbottom_j {
+      width: 40%; }
+    .readidms .readidmsbottom .readidmsbottom_n {
+      width: 100%; }
 
 .readtext {
   background-color: rgba(255, 255, 255, 0.25);

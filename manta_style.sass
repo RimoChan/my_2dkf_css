@@ -26,7 +26,7 @@ a, a:visited
         border-width: 0px
         a
             color: #000
-    
+
 // 版塊標題
 .indexlbtit2, .rightlbtit
     a
@@ -44,7 +44,7 @@ a, a:visited
         background: rgba(255, 255, 255, 0.3)
         transform: scale(1.02)
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3)
-    
+
 .indexlbtit2tit, .rightlbtit_tit 
     background: url('https://synthetic.librian.it/紙背景花紋模糊.jpg')
     background-size: cover
@@ -52,7 +52,7 @@ a, a:visited
     background-position: center
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5)
     transition: transform 0.3s
-    
+
 .rightbox1
     background: rgba(0, 0, 0, 0.2)
 
@@ -64,42 +64,29 @@ ul:hover
 // 大區背景
 .thread1 
     background: rgba(255, 255, 255, 0.3)
-    
+
 
 // ————————————————————————
 // 帖子內頭像框
+// .readidms 
 .readidms 
-    border: none !important
-    background: none !important
+    height: 270px
     width: 140px
-    transform: scale(1.28) translate(15px, 22px)
+    left: 70px
+    border-radius: 4px
+    overflow: hidden
     .readidmstop
         width: 100%
-        &>img
-            position: relative
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.75)
-            z-index: -1
-            border-radius: 10px
-            transition: transform 0.4s, box-shadow 0.4s
-            height: auto
-        &:hover>img
-            transform: scale(1.28) translate(0px, 22px)
-            box-shadow: 0px 0px 8px rgba(0,0,0,0.5)
-    // 頭像框名字
+        padding: 0
     .readidmsbottom
         width: 100%
-        transform: scale(0.78) translate(0px, -22px)
-        transition: opacity 0.4s
-    .readidmstop:hover+.readidmsbottom
-        opacity: 0
-        
+        .readidmsbottom_s
+            width: 60%
+        .readidmsbottom_j
+            width: 40%
+        .readidmsbottom_n
+            width: 100%
 
-// 新版框
-.readidmtop img
-    transform-origin: 0% 0%
-    transform: scale(1.16) translateX(-15px) translateY(-17.5px)
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%)
-    -moz-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%)
 
 // ————————————————————————
 // 讀帖子
