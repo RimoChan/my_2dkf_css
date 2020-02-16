@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body {
-  background: url("https://synthetic.librian.it/紙背景花紋.jpg");
+  background-color: #dec6a1;
+  background-image: url("https://synthetic.librian.it/紙背景花紋.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
   text-shadow: 0px 0px 3px #FFF; }
 
 a, a:visited {
@@ -13,10 +13,10 @@ a, a:visited {
   position: absolute !important;
   border-width: 0px !important;
   box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5) !important;
-  background: url("https://synthetic.librian.it/紙背景花紋模糊.jpg");
+  background-color: #dec6a1;
+  background-image: url("https://synthetic.librian.it/紙背景花紋模糊.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
   border-radius: 0px 0px 4px 4px; }
   .drow:first-child .topmenuo {
     background: transparent; }
@@ -42,10 +42,10 @@ a, a:visited {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); }
 
 .indexlbtit2tit, .rightlbtit_tit {
-  background: url("https://synthetic.librian.it/紙背景花紋模糊.jpg");
+  background-color: #dec6a1;
+  background-image: url("https://synthetic.librian.it/紙背景花紋模糊.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
   box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s; }
 
@@ -62,7 +62,7 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
   height: 270px;
   width: 140px;
   left: 70px;
-  border-radius: 4px;
+  border-radius: 5px;
   overflow: hidden; }
   .readidms .readidmstop {
     width: 100%;
@@ -82,5 +82,9 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
   .readtext:hover {
     background-color: rgba(255, 255, 255, 0.45);
     transition: background-color 0.6s; }
+  .readtext a.readcza {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.55);
+    border-radius: 3px; }
 
 /*# sourceMappingURL=manta_style.css.map */

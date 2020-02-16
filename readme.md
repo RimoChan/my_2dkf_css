@@ -6,6 +6,8 @@
 直接將manta_style.css的內容使用KF助手導入就好了。
 (當然如果你有Stylish就更好了。)
 
+或者你也可以在自定CSS裏填 `@import url("https://kf.librian.it/manta_style.css")` 。
+
 ## 預覽
 
 首頁:   
