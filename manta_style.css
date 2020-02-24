@@ -59,14 +59,15 @@ ul:hover .indexlbtit2tit, ul:hover .rightlbtit_tit {
   background: rgba(255, 255, 255, 0.3); }
 
 .readidms {
-  height: 270px;
+  height: auto;
   width: 140px;
   left: 70px;
   border-radius: 5px;
   overflow: hidden; }
   .readidms .readidmstop {
+    line-height: 0px;
     width: 100%;
-    padding: 0; }
+    padding: 0px; }
   .readidms .readidmsbottom {
     width: 100%; }
     .readidms .readidmsbottom .readidmsbottom_s {
