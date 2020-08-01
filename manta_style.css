@@ -9,8 +9,11 @@ body {
 a, a:visited {
   transition: color 0.2s, border 0.2s, background 0.2s, box-shadow 0.1s, transform 0.1s; }
 
-.drow:first-child {
-  position: absolute !important;
+.drow:nth-last-child(3) {
+  position: static !important; }
+
+.drow:nth-last-child(2) {
+  position: static !important;
   border-width: 0px !important;
   box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.5) !important;
   background-color: #dec6a1;
@@ -18,11 +21,11 @@ a, a:visited {
   background-size: cover;
   background-attachment: fixed;
   border-radius: 0px 0px 4px 4px; }
-  .drow:first-child .topmenuo {
+  .drow:nth-last-child(2) .topmenuo {
     background: transparent; }
-  .drow:first-child .topmenuo3 {
+  .drow:nth-last-child(2) .topmenuo3 {
     border-width: 0px; }
-    .drow:first-child .topmenuo3 a {
+    .drow:nth-last-child(2) .topmenuo3 a {
       color: #000; }
 
 .indexlbtit2 a, .rightlbtit a {
